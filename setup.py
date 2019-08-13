@@ -8,6 +8,7 @@ with open("requirements.txt", "r") as fh:
 
 setuptools.setup(
     name="databuri",
+    package="databuri",
     version="0.0.1",
     author="Pattarawat Chormai and friends",
     author_email="author@example.com",
@@ -16,7 +17,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url"https://github.com/codeforthailand/databuri",
+    url="https://github.com/codeforthailand/databuri",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
