@@ -5,7 +5,7 @@ USER_HOME = Path.home()
 CACHE_DIR = '~/databuri'
 
 CONFIGURATION_FILES = [
-    f'{USER_HOME}/databuri/config.ini',
+    '{}/databuri/config.ini'.format(USER_HOME),
     './.databuri/config.ini'
 ]
 
