@@ -14,13 +14,15 @@ class GovSpending(object):
     LOGGER = logger.getLogger(__name__)
     _L = LOGGER
 
-    def __init__(self, max_retries=5, ipp=50):
+    def __init__(self, max_retries=5, ipp=50, token=None):
         self.max_retries = max_retries
         self.ipp = ipp
 
+        if not token:
+            config = configuration.read_config()
+            token = config.get('govspending', 'user_token')
 
-        config = configuration.read_config()
-        self.token = config.get('govspending', 'user_token')
+        self.token = token
 
     def fetch(self, params, attempt=0):
         if not 'offset' in params:
