@@ -30,7 +30,6 @@ class GovSpending(object):
 
         xparams, _ = self._build_request(params)
 
-        # @todo #1 add logging
         GovSpending._L.info("Sending request to {}".format(GovSpending.URL))
         req = requests.get(GovSpending.URL, xparams)
 
