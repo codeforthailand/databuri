@@ -24,6 +24,5 @@ setuptools.setup(
         # "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    # @todo #1 add keywords
-    # keywords=[...]
+    keywords=["opendata", "public-apis", "thailand"],
 )
