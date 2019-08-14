@@ -20,8 +20,7 @@ setuptools.setup(
     url="https://github.com/codeforthailand/databuri",
     classifiers=[
         "Programming Language :: Python :: 3",
-        # @todo #1 add license
-        # "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     keywords=["opendata", "public-apis", "thailand"],
