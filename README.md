@@ -5,8 +5,9 @@ All-in-one Python package for Thailand's public APIs
 
 ## APIs Implemented
 | Name | Status | Description |
-|---|---|---|
+    |---|---|---|
 | [GovSpending](https://govspending.data.go.th/api/documentation) | implemented | Thai government procurement projects |
+| [Air4Thai](http://air4thai.pcd.go.th/webV2/history) | implemented | Air quality measurements in Thailand |
 
 ### APIs to be included
 - https://api-portal.sec.or.th/apidesc
