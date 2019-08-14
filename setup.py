@@ -13,8 +13,7 @@ setuptools.setup(
     author="Pattarawat Chormai and friends",
     author_email="author@example.com",
     install_requires=dependencies,
-    # @todo #1 add description
-    description="A small example package",
+    description="All-in-one Python package for Thailand's public APIs and datasets",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/codeforthailand/databuri",
