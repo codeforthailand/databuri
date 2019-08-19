@@ -40,7 +40,6 @@ $ pip install databuri
 2. `make html && ./autogen.sh`
 
 ## Related Links:
-- [Project Idea](https://github.com/codeforthailand/org/issues/2)
 - [Project Proposal](https://docs.google.com/document/d/1XXuRovZ3bRGC18MQluO5zsZJ_6TM9COwCgRoWv6lsnM/edit?usp=sharing)
 
 [travis]: https://travis-ci.org/codeforthailand/databuri
