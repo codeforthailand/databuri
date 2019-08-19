@@ -35,6 +35,9 @@ $ pip install databuri
     ```
     $ ./scripts/publish.sh <tag>
     ```
+### Build documentation
+1. cd `./docs`
+2. `make html && ./autogen.sh`
 
 ## Related Links:
 - [Project Idea](https://github.com/codeforthailand/org/issues/2)
