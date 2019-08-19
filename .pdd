@@ -1,2 +1,2 @@
 --exclude README.md
---exclude docs/*
+--exclude docs/**/*
