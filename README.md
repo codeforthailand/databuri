@@ -1,7 +1,15 @@
-# Data·Buri
+# DataBuri (stil in beta version)
 [![](https://travis-ci.org/codeforthailand/databuri.svg?branch=master)][travis]
 
 All-in-one Python package for Thailand's public APIs
+
+**Remark:** DataBuri is still under development. A couple of functionalities
+have been implemented but their signatures might be changed without any annoucement.
+
+## Installation
+```
+$ pip install databuri
+```
 
 ## APIs Implemented
 | Name | Description |
