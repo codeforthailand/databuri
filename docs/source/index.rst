@@ -19,6 +19,11 @@ TODO description
    :maxdepth: 2
    :caption: Contents:
 
+.. toctree::
+   :caption: Others
+   
+   configuration
+
 Indices and tables
 ==================
 

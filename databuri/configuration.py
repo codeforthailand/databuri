@@ -14,6 +14,13 @@ DATABURI_CONFIG_ENV = os.getenv('DATABURI_CONFIG')
 if DATABURI_CONFIG_ENV:
     CONFIGURATION_FILES.append(DATABURI_CONFIG_ENV)
 
+""" Read config
+
+:return: [description]
+:rtype: [type]
+"""
+
+
 def read_config(additional_configs=[]):
     config = configparser.ConfigParser()
     config.read(CONFIGURATION_FILES + additional_configs)
