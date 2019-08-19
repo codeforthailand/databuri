@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as fh:
 
 setuptools.setup(
     name="databuri",
-    version="0.0.4-dev",
+    version="0.1.0-dev",
     packages=setuptools.find_packages(),
     author="Pattarawat Chormai and friends",
     author_email="author@example.com",
