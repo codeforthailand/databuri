@@ -36,7 +36,7 @@ class GovSpending(object):
         if req.status_code in [504, 500]:
             if attempt < self.max_retries:
                 attempt = attempt + 1
-                print("Retry attempt {} for {}".format(attempt, params))
+                self._L("Retry attempt {} for {}".format(attempt, params))
                 return self.fetch(params, attempt=attempt)
             else:
                 raise SystemError(
